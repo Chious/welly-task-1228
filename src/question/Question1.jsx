@@ -6,7 +6,6 @@ function reverseString(str) {
 
   // from end to head, add string to the "output"
   for (let index = str.length; index--; index >= 0) {
-    console.log("index:", index);
     output += str[index];
   }
 
